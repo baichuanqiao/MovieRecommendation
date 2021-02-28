@@ -1,0 +1,1347 @@
+2021-02-23 00:35:51,627   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   305)  :  Root WebApplicationContext: initialization started
+2021-02-23 00:35:51,723   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing Root WebApplicationContext: startup date [Tue Feb 23 00:35:51 CST 2021]; root of context hierarchy
+2021-02-23 00:35:51,792   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from class path resource [application.xml]
+2021-02-23 00:35:52,393   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.context.support.PropertySourcesPlaceholderConfigurer        (line:   172)  :  Loading properties file from class path resource [recommend.properties]
+2021-02-23 00:35:52,402   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:35:52,640   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.mongodb.driver.cluster                                                      (line:    71)  :  Cluster created with settings {hosts=[192.168.242.5:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-02-23 00:35:52,775   INFO --- [cluster-ClusterId{value='6033dd68c50940ed8cf7fb96', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:1, serverValue:192}] to 192.168.242.5:27017
+2021-02-23 00:35:52,790   INFO --- [cluster-ClusterId{value='6033dd68c50940ed8cf7fb96', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=4921399}
+2021-02-23 00:35:53,366   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   305)  :  Root WebApplicationContext: initialization started
+2021-02-23 00:35:53,444   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing Root WebApplicationContext: startup date [Tue Feb 23 00:35:53 CST 2021]; root of context hierarchy
+2021-02-23 00:35:53,477   INFO --- [                             localhost-startStop-1]  org.springframework.web.context.ContextLoader                                   (line:   305)  :  Root WebApplicationContext: initialization started
+2021-02-23 00:35:53,520   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from class path resource [application.xml]
+2021-02-23 00:35:53,597   INFO --- [                             localhost-startStop-1]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing Root WebApplicationContext: startup date [Tue Feb 23 00:35:53 CST 2021]; root of context hierarchy
+2021-02-23 00:35:53,675   INFO --- [                             localhost-startStop-1]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from class path resource [application.xml]
+2021-02-23 00:35:54,193   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.context.support.PropertySourcesPlaceholderConfigurer        (line:   172)  :  Loading properties file from class path resource [recommend.properties]
+2021-02-23 00:35:54,201   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:35:54,393   INFO --- [                             localhost-startStop-1]  org.springframework.context.support.PropertySourcesPlaceholderConfigurer        (line:   172)  :  Loading properties file from class path resource [recommend.properties]
+2021-02-23 00:35:54,401   INFO --- [                             localhost-startStop-1]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:35:54,476   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.mongodb.driver.cluster                                                      (line:    71)  :  Cluster created with settings {hosts=[192.168.242.5:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-02-23 00:35:54,622   INFO --- [cluster-ClusterId{value='6033dd6ac50940efd1224e84', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:1, serverValue:193}] to 192.168.242.5:27017
+2021-02-23 00:35:54,632   INFO --- [cluster-ClusterId{value='6033dd6ac50940efd1224e84', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1268300}
+2021-02-23 00:35:54,899   INFO --- [                             localhost-startStop-1]  org.mongodb.driver.cluster                                                      (line:    71)  :  Cluster created with settings {hosts=[192.168.242.5:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-02-23 00:35:55,000   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:1, serverValue:194}] to 192.168.242.5:27017
+2021-02-23 00:35:55,008   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1171911}
+2021-02-23 00:35:56,330   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   345)  :  Root WebApplicationContext: initialization completed in 4694 ms
+2021-02-23 00:35:56,417   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   489)  :  FrameworkServlet 'recommend': initialization started
+2021-02-23 00:35:56,437   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:56 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:56,449   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from ServletContext resource [/WEB-INF/application-servlet.xml]
+2021-02-23 00:35:56,732   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:35:57,205   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/guess],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGuessMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:35:57,221   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/wish],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getWishMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:35:57,234   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/hot],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getHotMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:57,244   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getRateMoreMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:57,254   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/new],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getNewMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:57,264   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/same/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSameMovie(int,int,org.springframework.ui.Model)
+2021-02-23 00:35:57,272   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/info/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieInfo(int,org.springframework.ui.Model)
+2021-02-23 00:35:57,281   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/search],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSearchMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,290   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/genres],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGenresMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,309   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/myrate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRateMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,318   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.rateToMovie(int,java.lang.Double,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,329   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/tag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieTags(int,org.springframework.ui.Model)
+2021-02-23 00:35:57,338   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/mytag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyTags(int,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,347   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/newtag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.addMyTags(int,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,358   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/stat],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRatingStat(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,386   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/register],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addUser(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,398   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/login],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.login(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,408   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/pref],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addPrefGenres(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:57,623   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:56 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:57,762   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:56 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:57,931   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping                 (line:   354)  :  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2021-02-23 00:35:57,993   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   508)  :  FrameworkServlet 'recommend': initialization completed in 1561 ms
+2021-02-23 00:35:58,382   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   345)  :  Root WebApplicationContext: initialization completed in 5012 ms
+2021-02-23 00:35:58,432   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   489)  :  FrameworkServlet 'recommend': initialization started
+2021-02-23 00:35:58,439   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:58,440   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from ServletContext resource [/WEB-INF/application-servlet.xml]
+2021-02-23 00:35:58,615   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:35:58,823   INFO --- [                             localhost-startStop-1]  org.springframework.web.context.ContextLoader                                   (line:   345)  :  Root WebApplicationContext: initialization completed in 5343 ms
+2021-02-23 00:35:58,892   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/guess],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGuessMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:35:58,894   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/wish],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getWishMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:35:58,895   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/hot],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getHotMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:58,895   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getRateMoreMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:58,896   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/new],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getNewMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:58,897   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/same/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSameMovie(int,int,org.springframework.ui.Model)
+2021-02-23 00:35:58,898   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/info/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieInfo(int,org.springframework.ui.Model)
+2021-02-23 00:35:58,898   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.DispatcherServlet                               (line:   489)  :  FrameworkServlet 'recommend': initialization started
+2021-02-23 00:35:58,899   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/search],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSearchMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,900   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/genres],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGenresMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,901   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/myrate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRateMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,902   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.rateToMovie(int,java.lang.Double,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,903   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/tag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieTags(int,org.springframework.ui.Model)
+2021-02-23 00:35:58,903   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/mytag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyTags(int,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,904   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/newtag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.addMyTags(int,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,904   INFO --- [                             localhost-startStop-1]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:58,905   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/stat],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRatingStat(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,905   INFO --- [                             localhost-startStop-1]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from ServletContext resource [/WEB-INF/application-servlet.xml]
+2021-02-23 00:35:58,911   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/login],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.login(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,912   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/register],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addUser(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:58,912   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/pref],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addPrefGenres(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,156   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:59,172   INFO --- [                             localhost-startStop-1]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:35:59,289   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:35:59,475   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping                 (line:   354)  :  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2021-02-23 00:35:59,519   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/guess],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGuessMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:35:59,521   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/wish],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getWishMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:35:59,523   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/hot],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getHotMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:59,526   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getRateMoreMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:59,527   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/new],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getNewMovies(int,org.springframework.ui.Model)
+2021-02-23 00:35:59,528   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/same/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSameMovie(int,int,org.springframework.ui.Model)
+2021-02-23 00:35:59,528   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/info/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieInfo(int,org.springframework.ui.Model)
+2021-02-23 00:35:59,529   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/search],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSearchMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,529   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   508)  :  FrameworkServlet 'recommend': initialization completed in 1096 ms
+2021-02-23 00:35:59,530   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/genres],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGenresMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,530   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/myrate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRateMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,531   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.rateToMovie(int,java.lang.Double,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,532   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/tag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieTags(int,org.springframework.ui.Model)
+2021-02-23 00:35:59,533   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/mytag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyTags(int,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,534   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/newtag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.addMyTags(int,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,535   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/stat],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRatingStat(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,540   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/pref],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addPrefGenres(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,540   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/login],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.login(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:35:59,544   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/register],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addUser(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:00,160   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:00,261   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:00,584   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping                 (line:   354)  :  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2021-02-23 00:36:00,699   INFO --- [                             localhost-startStop-1]  org.springframework.web.servlet.DispatcherServlet                               (line:   508)  :  FrameworkServlet 'recommend': initialization completed in 1800 ms
+2021-02-23 00:36:08,027   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:56 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:08,037   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing Root WebApplicationContext: startup date [Tue Feb 23 00:35:51 CST 2021]; root of context hierarchy
+2021-02-23 00:36:09,542   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:09,544   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing Root WebApplicationContext: startup date [Tue Feb 23 00:35:53 CST 2021]; root of context hierarchy
+2021-02-23 00:36:12,908   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   305)  :  Root WebApplicationContext: initialization started
+2021-02-23 00:36:12,959   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing Root WebApplicationContext: startup date [Tue Feb 23 00:36:12 CST 2021]; root of context hierarchy
+2021-02-23 00:36:12,998   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from class path resource [application.xml]
+2021-02-23 00:36:13,361   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.context.support.PropertySourcesPlaceholderConfigurer        (line:   172)  :  Loading properties file from class path resource [recommend.properties]
+2021-02-23 00:36:13,370   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:36:13,553   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.mongodb.driver.cluster                                                      (line:    71)  :  Cluster created with settings {hosts=[192.168.242.5:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-02-23 00:36:13,643   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:1, serverValue:195}] to 192.168.242.5:27017
+2021-02-23 00:36:13,650   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1024475}
+2021-02-23 00:36:14,416   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   305)  :  Root WebApplicationContext: initialization started
+2021-02-23 00:36:14,477   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing Root WebApplicationContext: startup date [Tue Feb 23 00:36:14 CST 2021]; root of context hierarchy
+2021-02-23 00:36:14,523   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from class path resource [application.xml]
+2021-02-23 00:36:14,870   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.context.support.PropertySourcesPlaceholderConfigurer        (line:   172)  :  Loading properties file from class path resource [recommend.properties]
+2021-02-23 00:36:14,874   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:36:15,038   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.mongodb.driver.cluster                                                      (line:    71)  :  Cluster created with settings {hosts=[192.168.242.5:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-02-23 00:36:15,137   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:1, serverValue:196}] to 192.168.242.5:27017
+2021-02-23 00:36:15,141   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1006184}
+2021-02-23 00:36:15,735   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   345)  :  Root WebApplicationContext: initialization completed in 2821 ms
+2021-02-23 00:36:15,771   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   489)  :  FrameworkServlet 'recommend': initialization started
+2021-02-23 00:36:15,777   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:15 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:15,781   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from ServletContext resource [/WEB-INF/application-servlet.xml]
+2021-02-23 00:36:15,892   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:36:16,089   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/guess],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGuessMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:36:16,096   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/wish],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getWishMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:36:16,102   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/hot],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getHotMovies(int,org.springframework.ui.Model)
+2021-02-23 00:36:16,107   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getRateMoreMovies(int,org.springframework.ui.Model)
+2021-02-23 00:36:16,113   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/new],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getNewMovies(int,org.springframework.ui.Model)
+2021-02-23 00:36:16,119   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/same/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSameMovie(int,int,org.springframework.ui.Model)
+2021-02-23 00:36:16,124   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/info/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieInfo(int,org.springframework.ui.Model)
+2021-02-23 00:36:16,131   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/search],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSearchMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,138   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/genres],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGenresMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,145   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/myrate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRateMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,153   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.rateToMovie(int,java.lang.Double,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,161   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/tag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieTags(int,org.springframework.ui.Model)
+2021-02-23 00:36:16,170   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/mytag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyTags(int,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,178   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/newtag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.addMyTags(int,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,186   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/stat],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRatingStat(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,229   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/register],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addUser(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,237   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/login],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.login(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,244   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/pref],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addPrefGenres(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:16,366   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:15 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:16,438   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:15 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:16,581   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping                 (line:   354)  :  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2021-02-23 00:36:16,642   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   508)  :  FrameworkServlet 'recommend': initialization completed in 868 ms
+2021-02-23 00:36:16,941   INFO --- [                              http-bio-8088-exec-3]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:2, serverValue:197}] to 192.168.242.5:27017
+2021-02-23 00:36:17,246   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.ContextLoader                                   (line:   345)  :  Root WebApplicationContext: initialization completed in 2828 ms
+2021-02-23 00:36:17,273   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   489)  :  FrameworkServlet 'recommend': initialization started
+2021-02-23 00:36:17,277   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   582)  :  Refreshing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:17 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:17,278   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.xml.XmlBeanDefinitionReader                   (line:   317)  :  Loading XML bean definitions from ServletContext resource [/WEB-INF/application-servlet.xml]
+2021-02-23 00:36:17,380   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor(line:   155)  :  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-02-23 00:36:17,529   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/guess],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGuessMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:36:17,530   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/wish],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getWishMovies(java.lang.String,int,org.springframework.ui.Model)
+2021-02-23 00:36:17,531   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/hot],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getHotMovies(int,org.springframework.ui.Model)
+2021-02-23 00:36:17,531   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getRateMoreMovies(int,org.springframework.ui.Model)
+2021-02-23 00:36:17,531   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/new],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getNewMovies(int,org.springframework.ui.Model)
+2021-02-23 00:36:17,532   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/same/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSameMovie(int,int,org.springframework.ui.Model)
+2021-02-23 00:36:17,532   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/info/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieInfo(int,org.springframework.ui.Model)
+2021-02-23 00:36:17,532   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/search],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getSearchMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,532   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/genres],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getGenresMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,533   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/myrate],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRateMovies(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,533   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/rate/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.rateToMovie(int,java.lang.Double,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,533   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/tag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMovieTags(int,org.springframework.ui.Model)
+2021-02-23 00:36:17,534   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/mytag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyTags(int,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,534   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/newtag/{mid}],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.addMyTags(int,java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,534   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/movie/stat],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.MovieRestApi.getMyRatingStat(java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,539   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/login],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.login(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,539   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/register],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addUser(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,540   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping(line:   543)  :  Mapped "{[/rest/users/pref],methods=[GET],produces=[application/json]}" onto public org.springframework.ui.Model com.atguigu.business.rest.UserRestApi.addPrefGenres(java.lang.String,java.lang.String,org.springframework.ui.Model)
+2021-02-23 00:36:17,633   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:17 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:17,682   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter(line:   534)  :  Looking for @ControllerAdvice: WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:17 CST 2021]; parent: Root WebApplicationContext
+2021-02-23 00:36:17,759   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping                 (line:   354)  :  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2021-02-23 00:36:17,790   INFO --- [ContainerBackgroundProcessor[StandardEngine[Tomcat]]]  org.springframework.web.servlet.DispatcherServlet                               (line:   508)  :  FrameworkServlet 'recommend': initialization completed in 517 ms
+2021-02-23 00:36:22,688   INFO --- [                              http-bio-8088-exec-9]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:3, serverValue:198}] to 192.168.242.5:27017
+2021-02-23 00:36:22,731   INFO --- [                              http-bio-8088-exec-4]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:4, serverValue:199}] to 192.168.242.5:27017
+2021-02-23 00:36:22,746   INFO --- [                              http-bio-8088-exec-7]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:5, serverValue:200}] to 192.168.242.5:27017
+2021-02-23 00:39:05,094   INFO --- [                              http-bio-8088-exec-7]  com.atguigu.business.rest.MovieRestApi                                          (line:   207)  :  MOVIE_RATING_PREFIX:49122|27186|5.0|1614011945
+2021-02-23 00:40:40,046   INFO --- [                              http-bio-8088-exec-9]  com.atguigu.business.rest.MovieRestApi                                          (line:   207)  :  MOVIE_RATING_PREFIX:49122|27186|2.0|1614012040
+2021-02-23 00:41:14,041   INFO --- [                              http-bio-8088-exec-9]  com.atguigu.business.rest.MovieRestApi                                          (line:   207)  :  MOVIE_RATING_PREFIX:49122|2789|4.5|1614012074
+2021-02-23 00:42:03,645   INFO --- [                              http-bio-8088-exec-8]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:6, serverValue:201}] to 192.168.242.5:27017
+2021-02-23 00:43:00,333   INFO --- [                              http-bio-8088-exec-8]  com.atguigu.business.rest.MovieRestApi                                          (line:   207)  :  MOVIE_RATING_PREFIX:2018522823|1442|4.5|1614012180
+2021-02-23 04:12:00,136   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 04:12:00,925   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 04:12:01,625   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 07:38:28,368   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 07:38:29,068   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 07:38:44,419   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 09:26:00,680   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 09:26:11,532   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 09:26:26,881   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 13:02:39,348   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 13:02:40,743   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 13:15:01,361   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 13:15:05,347   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 13:18:16,492   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 13:18:31,504   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 13:18:40,589   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 13:18:55,599   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 13:20:20,693   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-23 13:20:35,709   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-23 13:20:58,141   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:67, serverValue:204}] to 192.168.242.5:27017
+2021-02-23 13:20:58,144   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:66, serverValue:205}] to 192.168.242.5:27017
+2021-02-23 13:20:58,148   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:71, serverValue:206}] to 192.168.242.5:27017
+2021-02-23 13:20:58,150   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2100179}
+2021-02-23 13:20:58,179   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=12640395}
+2021-02-23 13:20:58,214   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2910107}
+2021-02-24 03:26:16,176   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 03:26:18,543   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 03:26:18,892   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 03:56:42,380   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 03:56:52,455   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 04:55:35,995   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 04:55:46,025   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 04:56:11,147   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 06:43:39,697   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 06:44:14,649   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 06:44:29,795   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 06:45:04,914   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 06:45:19,942   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 12:10:04,359   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-24 12:10:15,238   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-24 13:47:27,710   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:107, serverValue:207}] to 192.168.242.5:27017
+2021-02-24 13:47:27,729   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2491702}
+2021-02-24 13:47:29,718   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:112, serverValue:208}] to 192.168.242.5:27017
+2021-02-24 13:47:29,740   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1373805}
+2021-02-24 13:47:31,563   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:108, serverValue:209}] to 192.168.242.5:27017
+2021-02-24 13:47:31,591   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1405193}
+2021-02-25 03:48:56,278   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 03:48:57,617   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 03:48:58,461   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 04:01:16,132   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:116, serverValue:210}] to 192.168.242.5:27017
+2021-02-25 04:01:16,159   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:112, serverValue:212}] to 192.168.242.5:27017
+2021-02-25 04:01:16,161   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:111, serverValue:211}] to 192.168.242.5:27017
+2021-02-25 04:01:16,161   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=12915810}
+2021-02-25 04:01:16,183   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=11623965}
+2021-02-25 04:01:16,186   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=21465904}
+2021-02-25 05:07:51,414   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 05:07:51,413   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 05:07:51,441   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 07:44:16,577   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 07:44:17,631   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 07:44:31,661   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 07:44:32,859   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 11:20:40,259   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 11:20:56,189   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:08:19,366   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:08:20,263   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:08:35,213   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:08:35,468   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:31:13,950   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:31:29,098   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:32:02,710   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:32:04,224   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:32:17,742   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:32:19,305   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:33:19,435   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:33:34,524   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:34:09,756   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:34:24,869   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:36:15,094   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:36:30,178   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:36:38,003   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:36:40,247   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:36:53,028   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:36:55,328   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:37:28,073   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:87)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-25 13:37:43,091   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    76)  :  Exception in monitor thread while connecting to server 192.168.242.5:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:463)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:214)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:85)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:108)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:474)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:210)
+	... 8 more
+2021-02-25 13:38:53,140   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:193, serverValue:213}] to 192.168.242.5:27017
+2021-02-25 13:38:53,144   INFO --- [cluster-ClusterId{value='6033dd7fc50940efd1b00b74', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2423399}
+2021-02-25 13:38:53,248   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:194, serverValue:214}] to 192.168.242.5:27017
+2021-02-25 13:38:53,251   INFO --- [cluster-ClusterId{value='6033dd6ac50940efe23de335', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=951071}
+2021-02-25 13:38:55,530   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.connection                                                   (line:    71)  :  Opened connection [connectionId{localValue:198, serverValue:215}] to 192.168.242.5:27017
+2021-02-25 13:38:55,543   INFO --- [cluster-ClusterId{value='6033dd7dc50940ed8cdef8bd', description='null'}-192.168.242.5:27017]  org.mongodb.driver.cluster                                                      (line:    71)  :  Monitor thread successfully connected to server with description ServerDescription{address=192.168.242.5:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=821981}
+2021-02-25 21:38:57,051   INFO --- [                             localhost-startStop-2]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:35:58 CST 2021]; parent: Root WebApplicationContext
+2021-02-25 21:38:57,165   INFO --- [                             localhost-startStop-2]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing Root WebApplicationContext: startup date [Tue Feb 23 00:35:53 CST 2021]; root of context hierarchy
+2021-02-25 21:39:04,465   INFO --- [                             localhost-startStop-2]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:15 CST 2021]; parent: Root WebApplicationContext
+2021-02-25 21:39:04,561   INFO --- [                             localhost-startStop-2]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing Root WebApplicationContext: startup date [Tue Feb 23 00:36:12 CST 2021]; root of context hierarchy
+2021-02-25 21:39:06,866   INFO --- [                             localhost-startStop-2]  org.mongodb.driver.connection                                                   (line:    71)  :  Closed connection [connectionId{localValue:3, serverValue:198}] to 192.168.242.5:27017 because there was a socket exception raised on another connection from this pool.
+2021-02-25 21:39:06,889   INFO --- [                             localhost-startStop-2]  org.mongodb.driver.connection                                                   (line:    71)  :  Closed connection [connectionId{localValue:5, serverValue:200}] to 192.168.242.5:27017 because there was a socket exception raised on another connection from this pool.
+2021-02-25 21:39:06,904   INFO --- [                             localhost-startStop-2]  org.mongodb.driver.connection                                                   (line:    71)  :  Closed connection [connectionId{localValue:4, serverValue:199}] to 192.168.242.5:27017 because there was a socket exception raised on another connection from this pool.
+2021-02-25 21:39:06,918   INFO --- [                             localhost-startStop-2]  org.mongodb.driver.connection                                                   (line:    71)  :  Closed connection [connectionId{localValue:2, serverValue:197}] to 192.168.242.5:27017 because there was a socket exception raised on another connection from this pool.
+2021-02-25 21:39:06,928   INFO --- [                             localhost-startStop-2]  org.mongodb.driver.connection                                                   (line:    71)  :  Closed connection [connectionId{localValue:6, serverValue:201}] to 192.168.242.5:27017 because there was a socket exception raised on another connection from this pool.
+2021-02-25 21:39:15,258   INFO --- [                             localhost-startStop-2]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing WebApplicationContext for namespace 'recommend-servlet': startup date [Tue Feb 23 00:36:17 CST 2021]; parent: Root WebApplicationContext
+2021-02-25 21:39:15,349   INFO --- [                             localhost-startStop-2]  org.springframework.web.context.support.XmlWebApplicationContext                (line:   987)  :  Closing Root WebApplicationContext: startup date [Tue Feb 23 00:36:14 CST 2021]; root of context hierarchy
